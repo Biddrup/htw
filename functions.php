@@ -5,6 +5,7 @@
 	}
 	add_action('after_setup_theme','htw_theme_support');
 
+	//The begenning of script and style
 	function htw_scripts(){
 		wp_enqueue_style('google-fonts-one', '//fonts.googleapis.com/css?family=Open+Sans:400,300', null, 'v1.0', all);
 		wp_enqueue_style('google-fonts-two', '//fonts.googleapis.com/css?family=PT+Sans', null, 'v1.0', all);
@@ -20,3 +21,11 @@
 		wp_enqueue_script('wow', get_template_directory_uri().'/js/wow.min.js', 'jquery', null, true);
 	}
 	add_action('wp_enqueue_scripts','htw_scripts');
+
+	function footer_extra_script(){
+		?>
+		<script>
+		  new WOW().init();
+		</script>
+<?php	}
+	add_action('wp_footer', 'footer_extra_script');
