@@ -16,6 +16,7 @@
 		wp_enqueue_style('animate.min', get_template_directory_uri().'/assets/css/animate.min.css');
 		wp_enqueue_style('main-css', get_stylesheet_uri(), null, 'v1.0', all);
 
+		//The begenning of script
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('bootstrap', get_template_directory_uri().'/assets/bootstrap/js/bootstrap.min.js', 'jquery', null, true);
 		wp_enqueue_script('wow', get_template_directory_uri().'/js/wow.min.js', 'jquery', null, true);
