@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <!-- CSS -->
-
+	<!-- They are called by functions.php -->
 
     <!-- Favicon and touch icons -->
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/ico/favicon.ico">
