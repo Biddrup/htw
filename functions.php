@@ -10,10 +10,10 @@
 		wp_enqueue_style('google-fonts-one', '//fonts.googleapis.com/css?family=Open+Sans:400,300', null, 'v1.0', all);
 		wp_enqueue_style('google-fonts-two', '//fonts.googleapis.com/css?family=PT+Sans', null, 'v1.0', all);
 		wp_enqueue_style('google-fonts-three', '//fonts.googleapis.com/css?family=Raleway', null, 'v1.0', all);
-		wp_enqueue_style('bootstrap', get_template_directory_uri().'/assets/bootstrap/css/bootstrap.css');
-		wp_enqueue_style('font-awesome.min', get_template_directory_uri().'/assets/css/font-awesome.min.css');
-		wp_enqueue_style('style', get_template_directory_uri().'/assets/css/style.css');
-		wp_enqueue_style('animate.min', get_template_directory_uri().'/assets/css/animate.min.css');
+		wp_enqueue_style('bootstrap', get_template_directory_uri().'/assets/bootstrap/css/bootstrap.css', null);
+		wp_enqueue_style('font-awesome.min', get_template_directory_uri().'/assets/css/font-awesome.min.css', null);
+		wp_enqueue_style('style', get_template_directory_uri().'/assets/css/style.css', null);
+		wp_enqueue_style('animate.min', get_template_directory_uri().'/assets/css/animate.min.css', null);
 		wp_enqueue_style('main-css', get_stylesheet_uri(), null, 'v1.0', all);
 
 		//The begenning of script
