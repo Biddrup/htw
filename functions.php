@@ -29,4 +29,4 @@
 		  new WOW().init();
 		</script>
 <?php	}
-	add_action('wp_footer', 'footer_extra_script');
+	add_action('wp_footer', 'footer_extra_script', 30);
