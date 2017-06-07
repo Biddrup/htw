@@ -1,5 +1,5 @@
 /*
-Theme Name: Office Master
+Theme Name: am67
 Theme URI: https://github.com/Biddrup/htw
 Author: Biddrup
 Author URI: https://www.facebook.com/biddrupkumar.mallick
@@ -16,9 +16,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .navbar-default .navbar-nav > .current_page_item > a:hover,
 .navbar-default .navbar-nav > .current_page_item > a:focus {
     color: #fff;
-    background-color: #6BAAA8;
+    background-color: #000;
 }
 .current_page_item {
-    background: #000 !important;
+    background: #f00 !important;
     color: white;
 }

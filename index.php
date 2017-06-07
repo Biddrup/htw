@@ -3,12 +3,13 @@
     <head>
 
         <!-- meta data & title -->
-        <meta charset="<?php bloginfo('charset') ?>">
+        <meta charset="<?php bloginfo('charset'); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
 
         <!-- CSS -->
+        
         
 
         <!-- Favicon and touch icons -->
@@ -18,7 +19,6 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/assets/ico/apple-touch-icon-57-precomposed.png">
         <?php wp_head(); ?>
-
     </head>
   <body>
 
@@ -39,15 +39,14 @@
             </div>
         
             <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
-
-            <?php
-                wp_nav_menu(array(
-                    'theme_location'=>'mother_menu',
-                    'fallback_cb'=>'am66_fallback_menu',
-                    'container'=>'',
-                    'menu_class'=>'nav navbar-nav pull-right',
-                ));
-            ?>       
+                <?php
+                    wp_nav_menu(array(
+                        'theme_location'=>'mother_menu',
+                        'container'=>'',
+                        'fallback_cb'=>'a27_fallback_menu',
+                        'menu_class'=>'nav navbar-nav pull-right',
+                    ));
+                ?>       
             </div>
         </div>
     </nav>
@@ -237,10 +236,6 @@
     <div class="copyright text center">
         <p>&copy; Copyright 2014, <a href="#">Your Website Link</a>. Theme by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
     </div>
-
-    
-    
-
     <?php wp_footer(); ?>
   </body>
 </html>
