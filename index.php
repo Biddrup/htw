@@ -42,28 +42,12 @@
 
             <?php
                 wp_nav_menu(array(
-                    'theme_location'=>'primary_menu',
+                    'theme_location'=>'mother_menu',
                     'fallback_cb'=>'am66_fallback_menu',
-                    'container'=>'nav',
-                ))
-            ?>
-                <!-- <ul class="nav navbar-nav pull-right">
-                    <li class="active">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href="team.html">Team</a>
-                    </li>
-                    <li>
-                        <a href="contact.html"><span>Contact</span></a>
-                    </li>
-                </ul>  -->        
+                    'container'=>'',
+                    'menu_class'=>'nav navbar-nav pull-right',
+                ));
+            ?>       
             </div>
         </div>
     </nav>

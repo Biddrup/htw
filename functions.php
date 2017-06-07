@@ -2,7 +2,7 @@
 	function am66_theme_support(){
 		add_theme_support('title-tag');
 		register_nav_menus(array(
-			'primary_menu' => 'Primery Menu',
+			'mother_menu'=>'Mother Menu',
 		));
 	}
 	add_action('after_setup_theme', 'am66_theme_support');
@@ -33,20 +33,20 @@
 
 	function am66_fallback_menu(){ ?>
 		<ul class="nav navbar-nav pull-right">
-            <li class="active">
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Team</a>
-            </li>
-            <li>
-                <a href="#"><span>Contact</span></a>
-            </li>
-        </ul>	
-	<?php	}
+		    <li class="active">
+		        <a href="index.html">Home</a>
+		    </li>
+		    <li>
+		        <a href="about.html">About</a>
+		    </li>
+		    <li>
+		        <a href="blog.html">Blog</a>
+		    </li>
+		    <li>
+		        <a href="team.html">Team</a>
+		    </li>
+		    <li>
+		        <a href="contact.html"><span>Contact</span></a>
+		    </li>
+		</ul> 
+	<?php }

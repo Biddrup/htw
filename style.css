@@ -9,7 +9,16 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: Office Master
 Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
-
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+.navbar-default .navbar-nav > .current_page_item > a,
+.navbar-default .navbar-nav > .current_page_item > a:hover,
+.navbar-default .navbar-nav > .current_page_item > a:focus {
+    color: #fff;
+    background-color: #6BAAA8;
+}
+.current_page_item {
+    background: #000 !important;
+    color: white;
+}
